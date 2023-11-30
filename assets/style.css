@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;  
+}  
+.sign_up{
+    display: flex;
+    justify-content: flex-end;  
+    margin-left: 700px;
+
+} 
+
+.topnav{
+    background-color: white; 
+}
+.topnav img{
+    margin-top: 40px;
+    margin-left: 80px;
+    
+}
+.topnav a{
+    text-align: center;
+    padding: 14px 10px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    color: #074887;
+    font-size: medium;
+    text-decoration: none;
+}
+.topnav a:hover{
+    color: #1db9ef;
+}
+.topnav button{
+    background-color: #1DB9EF;
+    padding: 8px 20px;
+    color: white;   
+    display: inline-block;
+    position: relative;
+    border-radius: 15px;
+    border-color: #1DB9EF;
+    cursor: pointer;
+}
+.topnav button:hover{
+    opacity: 0.3;
+}
+form{
+    width: 100%; 
+}
+h1{
+    background-color: #074887;
+    color: #fff;
+    padding: 12px 15px;
+    font-size: smaller;
+    font-style: normal;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.container{
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   background: whitesmoke;
+}
+.content{
+   
+    align-items: center;
+    padding-left: 50px;
+
+}
+.me{
+    
+    padding-left: 50px;
+}
+.Login{
+  background: #28A745;
+  color: #fff;
+  text-align: center;
+ 
+  letter-spacing: 1px;
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+} 
+.Login:hover{
+    opacity: 0.3;
+}
+.social{
+    background-color: #D9372B;
+    color: #fff;
+    border:none;
+    padding: 12px 100px;
+}
+.social:hover{
+    opacity: 0.3;
+}
+.facebook{
+    background-color: #36609F;
+    color: white;
+    padding: 12px 100px;
+    border: none;
+}
+.facebook:hover{
+    opacity: 0.3;
+}
+.forgot{
+    background-color: #F8F9FA;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 100px;
+    border: none;
+    margin: 0 auto;
+}
+.forgot:hover{
+    opacity: 0.3;
+}
+.account{
+    background-color: #F8F9FA;
+    color: black;
+    border-radius: 15px;
+    padding: 10px 85px;
+    border: none;
+}
+.account:hover{
+    opacity: 0.3;
+}
+.container2{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: #F8F9FA;
+    padding:40px 0px 0px 0px ;
+    text-align: left;    
+}
+b{
+   margin-left: 200px;
+}
+p{
+    font-size: small;
+    text-align: left;
+    margin-left: 200px;
+}
+.apps:hover{
+    opacity: 0.3;
+}
+.robo{
+    margin-left: 60%;
+    max-width: 17%;
+    padding: 10%;
+}
+.subscribe{
+    background-color: #28A745;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+.subscribe:hover{
+    opacity: 0.3;
+}
+.footermenu1 ul li{
+    list-style-type: none;
+}
+.footermenu2 ul{
+    list-style-type: none;
+}
+.footermenu3 ul{
+    list-style-type: none;
+}
+.footermenu1 ul li a{
+    color: black;
+}
+.footermenu1 ul li a:hover{
+    color: #007bff;
+}
+.footermenu2 ul li a{
+    color: black;
+
+}
+.footermenu2 ul li a:hover{
+    color: #007bff;
+}
+.footermenu3 ul li a{
+    color: black;
+
+}
+.footermenu3 ul li a:hover{
+    color: #007bff;
+}
+.footerimg12{
+    height: 215px;
+    width: 100%;
+   
+}
